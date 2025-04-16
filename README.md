@@ -33,8 +33,10 @@ Program to print the contact name and phone number using content providers.
 Developed by:L.MAHESH MUTHU
 Registeration Number :212222040093
 */
+```
 
 Mainactivity.java:
+```
 package com.example.ex5;
 import android.support.v7.app.AppCompatActivity;
 import android.database.Cursor;
@@ -94,7 +96,9 @@ public class MainActivity extends AppCompatActivity {
 
         System.out.println("Total Count of Contacts: "+count);}
 }
+```
 Activitymain.XML:
+```
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -113,6 +117,7 @@ Activitymain.XML:
 
 </RelativeLayout>
 ```
+
 
 ## OUTPUT
 
